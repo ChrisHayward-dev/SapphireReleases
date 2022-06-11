@@ -9,4 +9,9 @@ To update the firmware (or to revert to an older version):
 5. Once the GACBOOT drive closes, the Sapphire will automatically reboot and run the new code
 
 If the PATCHLEVEL of the loaded firmware differs from what was previously running, any saved configurations (other than the serial number) will be wiped and set to the defaults in the loaded code.  You can always reset them by adding a config.cfg file to the SD card.
+## Scripts
+1. extractLog.pl: reads a series of Sapphire Miniseed files and outputs JSON formatted logs.  Call as extractLog.pl *.msd.  You should not mix log files from more than one run as it will get very confused
+
+## Documents
+1. Datasheet.pdf: a one page (front and back) datasheet for the Sapphire as designed.  Not all the features were implemented.
 
