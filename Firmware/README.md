@@ -1,6 +1,10 @@
 # Sapphire Binaries
 
-## rc3
+## test_DLHR_Read.uf2 
+Simple test of DLHR differential pressure sensor.  This firmware simply reads
+the sensor and prints the sample to the screen.  I usually use it with the 
+Arduino IDE in plot mode.
+## MiniLogger.5.2.10.rc3.uf2
 ### Defaults:
   1. 128 SPS
   2. 1 Hour GPS scan
