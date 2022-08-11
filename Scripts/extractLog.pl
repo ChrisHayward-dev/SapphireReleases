@@ -16,6 +16,6 @@ while ($ARGV = shift) {
   }
   }
   $lines = join(//,@line);
-  $lines =~ s/}}/}}\n/g;
+  $lines =~ s/}{/}\n\{/g;
   $lines =~ s/\000//g;
   print "$lines";
