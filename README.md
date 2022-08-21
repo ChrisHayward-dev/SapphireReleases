@@ -1,5 +1,5 @@
 # SapphireReleases
-This repository contains the SMU/Sapphire binary updates, various documents, and some miscalenous scripts and programs to assist in operating the SapphireMini.
+This repository contains the SMU/Sapphire binary updates, various documents, and some miscalenous scripts and programs to assist in operating the SapphireMini.  Current release https://github.com/ChrisHayward-dev/SapphireReleases/releases/tag/2022_08_21
 ## Updating the firmware on a Sapphire.  
 In general you'd want to download a release rather than items in the main branch.  I try to coordinate the documentation, tools, and firmware for the releases.  The state of the main branch is ephemeral and often the firmware will be ahead of the documentation.
 To update the firmware (or to revert to an older version):
