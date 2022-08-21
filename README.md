@@ -1,6 +1,7 @@
 # SapphireReleases
 This repository contains the SMU/Sapphire binary updates, various documents, and some miscalenous scripts and programs to assist in operating the SapphireMini.
-## Updating the firmware on a Sapphire
+## Updating the firmware on a Sapphire.  
+In general you'd want to download a release rather than items in the main branch.  I try to coordinate the documentation, tools, and firmware for the releases.  The state of the main branch is ephemeral and often the firmware will be ahead of the documentation.
 To update the firmware (or to revert to an older version):
 1. Download the *.uf2 file of interest (in the Firmware directory)
 2. Connect the Sapphire to the USB port of your computer
