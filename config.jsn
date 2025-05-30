@@ -1,0 +1,73 @@
+{
+  "version": 5,
+  "revision": 4,
+  "patch": 8,
+  "acq": {
+    "expName": "Norway DAS experiment",
+    "network": "U2",
+    "chan": [
+      "BDF",
+      "BDE",
+      "BDK",
+      "OFF",
+      "OFF"
+    ],
+    "sampleRate": [
+      128,
+      16,
+      16,
+      128,
+      128
+    ],
+    "format": [
+      "float",
+      "float",
+      "float",
+      "float",
+      "float"
+    ],
+    "reserveTime": [
+      800,
+      800,
+      800,
+      800,
+      800
+    ],
+    "missedSample": true
+  },
+  "sdcard": {
+    "syncTime_min": 14,
+    "filePeriod_min": 240
+  },
+  "gnss": {
+    "mode": "cycled",
+    "startDelay_min": 0,
+    "period_min": 60,
+    "minOn_sec": 8,
+    "searchPeriod_sec": 900,
+    "requiredOn_sec": 4,
+    "maxLowPowerTTL": 0,
+    "minVoltage": 4.4,
+    "surveyWindow_min": 15,
+    "surveyCycle": 8
+  },
+  "timing": {
+    "sync": true,
+    "jamsetThreshold_uS": 2000,
+    "agingOffset": 0
+  },
+  "debug": {
+    "diagInterval": 0,
+    "usbOnTime_min": 12,
+    "debugMask": 0,
+    "minRunTime": 900,
+    "maxFiles": 0,
+    "incrSerial": 0,
+    "maxBoots": 10,
+    "factoryReset": false
+  },
+  "status": {
+    "sohPeriod": 10,
+    "batteryCutoff_volts": 4.1
+  }
+}
