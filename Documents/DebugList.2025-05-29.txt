@@ -1,0 +1,556 @@
+00003	0003	taskClock.ino         	
+00004	0004	SM_fram.cpp           	
+00004	0004	taskSample.ino        	
+00010	0008	SM_ublox.cpp          	
+00013	0011	SM_miniseed_steim.cpp 	Begin Steim
+00013	0011	taskRecord.ino        	
+00014	0012	SM_config.cpp         	
+00015	0013	SM_config.cpp         	Memory Free: 0
+00021	0017	genericdevice_uartregtest.ino	
+00022	0018	genericdevice_uartregtest.ino	
+00023	0019	Sensors.ino           	
+00023	0019	genericdevice_uartregtest.ino	
+00024	0020	SFFS.cpp              	
+00024	0020	taskMonitor.ino       	Diag task blocked
+00025	0021	SFFS.cpp              	
+00025	0021	SM_miniseed_steim.cpp 	Allocated memory for Steim1 Frames
+00025	0021	SM_sdcard.cpp         	
+00026	0022	SM_sdcard.cpp         	
+00027	0023	SFFS.cpp              	
+00030	0024	SFFS.cpp              	
+00031	0025	SM_fram.cpp           	FRAM: Volume not initialized!
+00031	0025	SM_miniseed2.ino      	
+00031	0025	configSetup.cpp       	Reading JSON config file from FRAM
+00032	0026	SM_clockSync.cpp      	
+00033	0027	SM_fram.cpp           	FRAM: Unable to create new FRAM volume
+00033	0027	genericdevice_uartregtest.ino	
+00034	0028	configSetup.cpp       	===>FRAM config<===
+00034	0028	genericdevice_uartregtest.ino	
+00035	0029	genericdevice_uartregtest.ino	
+00035	0029	taskSample.ino        	useSensor 0x0
+00036	0030	SFFS.cpp              	*** num = 0x
+00037	0031	SFFS.cpp              	
+00037	0031	SM_fram.cpp           	FRAM volume: , available 0 of 0
+00037	0031	Threads.ino           	
+00037	0031	configSetup.cpp       	Unable to get FRAM JSON config file
+00037	0031	taskSample.ino        	No Data Requested - check config.jsn file
+00040	0032	SM_sdcard.cpp         	SD file update time: 0/00/00T00:00:00
+00041	0033	SM_fram.cpp           	WARNING: FRAM VolumeName is , expected it to be 
+00043	0035	taskRecord.ino        	Swapping miniseed files at 0
+00044	0036	taskClock.ino         	Waiting for stable PPS: 0 sec
+00044	0036	taskRecord.ino        	  next file swap at 0
+00046	0038	SM_clockSync.cpp      	Begin clocksync
+00047	0039	SM_clockSync.cpp      	 Using clock frequency of 0 Hz
+00047	0039	configSetup.cpp       	Reading JSON config file: from sd card
+00050	0040	SM_clockSync.cpp      	 Using 0.000 ns/tick
+00050	0040	taskClock.ino         	No PPS detected!!
+00051	0041	configSetup.cpp       	JSON sdfile ok
+00052	0042	taskClock.ino         	Got PPS!
+00053	0043	SM_clockSync.cpp      	 DS3231 Init
+00053	0043	SM_diag.cpp           	USER Attn Button
+00053	0043	configSetup.cpp       	JSON sdfile has formatting error
+00054	0044	SM_fram.cpp           	FRAM: Unable to initialize FRAM!
+00056	0046	genericdevice_uartregtest.ino	Read timeout!
+00057	0047	SM_sdcard.cpp         	Begin sdcard
+00060	0048	SM_clockSync.cpp      	 DS3231 setup done
+00060	0048	SM_fram.cpp           	FRAM: Unable to create new FRAM volume
+00061	0049	configSetup.cpp       	===>Loaded SDcard config<===
+00062	0050	SM_miniseed_steim.cpp 	Clear Steim
+00062	0050	genericdevice_uartregtest.ino	Reading: 
+00063	0051	SM_clockSync.cpp      	 No local clock preserved
+00064	0052	Sensors.ino           	Setup
+00064	0052	configSetup.cpp       	<===========================>
+00065	0053	genericdevice_uartregtest.ino	
+00066	0054	SM_clockSync.cpp      	 Local clock is wrong
+00066	0054	SM_miniseed2.ino      	sdSetup
+00067	0055	SM_clockSync.cpp      	 Will need to reset clock from GNSS
+00067	0055	SM_miniseed_steim.cpp 	return
+00067	0055	Sensors.ino           	DLHR setup failed!!
+00067	0055	configSetup.cpp       	Unable to find SD JSON config file 
+00067	0055	genericdevice_uartregtest.ino	
+00070	0056	Sensors.ino           	Replace DLHR differential pressure chip and notify SMU!
+00071	0057	SFFS.cpp              	Create: ")); DEBUG_OUT(print(m_name)); DEBUG_OUT(print(" size 
+00071	0057	SM_clockSync.cpp      	 Local clock preserved
+00071	0057	SM_sdcard.cpp         	Awaiting SD card insert... ATTN to format card
+00072	0058	SM_sdcard.cpp         	 -- will clear debug history on card insert!
+00073	0059	SM_miniseed2.ino      	SD init fail!
+00074	0060	SM_miniseed2.ino      	SD Init failed with 0x0000 0
+00076	0062	SM_clockSync.cpp      	 Local time: 00/00/00T00:00:00
+00076	0062	SM_miniseed2.ino      	Card Initialized
+00076	0062	Sensors.ino           	Reset I2C clock to 400 KHz
+00076	0062	genericdevice_uartregtest.ino	Writing: 
+00076	0062	taskClock.ino         	clocksync: slew Clock
+00077	0063	SFFS.cpp              	SFFS: File name too long or incorrect!
+00077	0063	SM_fram.cpp           	FRAM file: creating file 
+00077	0063	SM_miniseed_steim.cpp 	Forward Constant: (0):0
+00100	0064	SM_clockSync.cpp      	Wait for local PPS!!
+00100	0064	SM_miniseed2.ino      	Can't find valid FAT partition.
+00100	0064	genericdevice_uartregtest.ino	
+00100	0064	taskRecord.ino        	Open next file: 0 ms
+00101	0065	SM_fram.cpp           	FRAM file: Unable to create file  of size 0 char
+00101	0065	configSetup.cpp       	Found FRAM
+00102	0066	Sensors.ino           	Setup Complete
+00102	0066	genericdevice_uartregtest.ino	
+00103	0067	configSetup.cpp       	No FRAM found!!
+00103	0067	taskClock.ino         	Waiting 0 sec for clockskew
+00106	0070	taskSample.ino        	Unknown or unapplicable output format requested!
+00107	0071	SM_miniseed2.ino      	File is OPEN!!
+00107	0071	taskRecord.ino        	User Pressed Attn
+00110	0072	taskSample.ino        	Channel  location 0
+00111	0073	SM_miniseed2.ino      	Unable to open file!
+00113	0075	SM_clockSync.cpp      	CPU RTC Time set 0 @ 0
+00114	0076	SM_clockSync.cpp      	Synced with local time
+00114	0076	taskClock.ino         	>>>Unreasonably high slew: 0
+00114	0076	taskSample.ino        	Declaring location  for channel 
+00115	0077	SM_fram.cpp           	Opening  to print
+00116	0078	SM_sdcard.cpp         	Requested Reformat of SD Card!
+00116	0078	taskSample.ino        	Initialized mseed  channel at 0 Hz with buffer of 0 ms
+00117	0079	SFFS.cpp              	SFFS: fOpen = 
+00117	0079	SM_clockSync.cpp      	Initialize sync buffers
+00117	0079	SM_fram.cpp           	FRAM file: unable to open  for printing
+00117	0079	SM_sdcard.cpp         	Clearing debug history!
+00120	0080	configSetup.cpp       	FRAM non zero 0 at address 0
+00121	0081	taskSample.ino        	At sample start, min heap: 0 bytes
+00123	0083	SM_fram.cpp           	FRAM print: [
+00123	0083	Sensors.ino           	Chip Variant: 00000000
+00123	0083	taskClock.ino         	clocksync: slewing clock
+00124	0084	SM_miniseed2.ino      	demo_miniseed2
+00124	0084	configSetup.cpp       	FRAM set to zero!
+00125	0085	SM_miniseed2.ino      	Starting Setup
+00127	0087	SM_miniseed2.ino      	RTC setup
+00127	0087	taskClock.ino         	Power down GNSS during long slew
+00131	0089	taskRecord.ino        	Files remaining before reboot: 0
+00132	0090	SM_miniseed2.ino      	miniseed begin
+00132	0090	configSetup.cpp       	Zero FRAM to factory. Serial number set to ZERO!
+00133	0091	SM_fram.cpp           	FRAM  is 0 of 0 bytes
+00133	0091	SM_miniseed2.ino      	Set Time to  
+00134	0092	SM_miniseed2.ino      	Unix Time is: 0
+00134	0092	SM_sdcard.cpp         	readInfo failed
+00134	0092	Threads.ino           	Startup
+00134	0092	genericdevice_uartregtest.ino	Echo mismatch
+00135	0093	configSetup.cpp       	FRAM Size 0
+00137	0095	Sensors.ino           	Chip Serial Number: 00000000000000000000000000000000\n
+00140	0096	SM_clockSync.cpp      	Reset
+00140	0096	SM_sdcard.cpp         	readCID failed
+00141	0097	taskSample.ino        	RTC Timeout!: 0 ticks
+00142	0098	taskClock.ino         	Waiting clocksync setSlew
+00142	0098	taskRecord.ino        	Low Voltage cutoff
+00144	0100	SM_miniseed2.ino      	Setup complete!!
+00145	0101	taskRecord.ino        	Low Voltage Cutoff
+00147	0103	SM_sdcard.cpp         	Card capacity 0G
+00147	0103	genericdevice_uartregtest.ino	Invalid sync byte
+00150	0104	SM_usbdrive.cpp       	Unable to init SD card!
+00150	0104	Threads.ino           	Adding diagnostics task: ==>NO MORE THAN 4 output channels can be used!!!!<=====
+00153	0107	Sensors.ino           	Processor: 0x0\n
+00154	0108	Sensors.ino           	Family: 0x0\n
+00154	0108	genericdevice_uartregtest.ino	Invalid reply address
+00155	0109	Sensors.ino           	Series: 0x0\n
+00157	0111	SM_sdcard.cpp         	
+00161	0113	SM_miniseed2.ino      	At High water!
+00161	0113	genericdevice_uartregtest.ino	Register mismatch
+00162	0114	Sensors.ino           	Init uProcessor Temperature Sensor
+00162	0114	taskSample.ino        	missed 0 sample
+00163	0115	SM_miniseed2.ino      	Dumped records!
+00163	0115	SM_sdcard.cpp         	DEBUG: Low Power Mode
+00163	0115	taskSample.ino        	Overrun 0
+00164	0116	SM_clockSync.cpp      	Preset CPU RTC time
+00164	0116	Sensors.ino           	uProcessor Temperature: 0.000C
+00166	0118	Threads.ino           	Memory Free: 0
+00166	0118	taskClock.ino         	Starting fixupJamset
+00167	0119	SM_sdcard.cpp         	SD 0 free clusters
+00167	0119	Threads.ino           	Starting RTOS Scheduler
+00167	0119	genericdevice_uartregtest.ino	CRC mismatch
+00167	0119	taskRecord.ino        	Flushed mseed sd: 0 maxSamps, 0 ms
+00170	0120	SM_sdcard.cpp         	Settting dateTime callback
+00172	0122	Threads.ino           	Activating PB1 interrupt
+00172	0122	taskSample.ino        	Expected 0 count, got 0
+00173	0123	SFFS.cpp              	Read: ")); DEBUG_OUT(print(m_name)); DEBUG_OUT(print(" bytes: 
+00176	0126	SM_miniseed_lib.cpp   	Begining allocation
+00176	0126	taskClock.ino         	Sync aborted!
+00177	0127	configSetup.cpp       	>>FRAM patchlevel mismatch
+00200	0128	SFFS.cpp              	ReadDone: 
+00200	0128	SM_sdcard.cpp         	Power cycle SD card
+00202	0130	SM_config.cpp         	SD size: 0G, FRAM size: 0K
+00202	0130	taskSample.ino        	Sample Timeout
+00203	0131	configSetup.cpp       	clearFRAM is 0
+00204	0132	configSetup.cpp       	\n\n================>Clearing FRAM to defaults!<======================\n\n
+00205	0133	Mini_Logger5.4.ino    	Too many watchdog reboots!
+00205	0133	SM_clockSync.cpp      	Wait for GNSS PPS!!
+00206	0134	taskRecord.ino        	Random dump triggered
+00210	0136	taskRecord.ino        	Next random dump at 0
+00211	0137	Mini_Logger5.4.ino    	Watchdog Alert!
+00211	0137	taskClock.ino         	Synchronizing Local DS3231
+00213	0139	Sensors.ino           	ADS1115 Not detected!
+00214	0140	SFFS.cpp              	 idx 
+00214	0140	taskClock.ino         	Setting channel times
+00215	0141	SFFS.cpp              	
+00215	0141	SM_miniseed_lib.cpp   	Attempted to allocate 0 samples of 0 bytes
+00215	0141	SM_sdcard.cpp         	Unable to init the SD Card!!
+00216	0142	SFFS.cpp              	 DOff 
+00216	0142	configSetup.cpp       	Parsing Defaults
+00217	0143	SFFS.cpp              	
+00220	0144	SFFS.cpp              	, fp 
+00220	0144	SM_sdcard.cpp         	SDCard Init OK!
+00220	0144	configSetup.cpp       	===>Default config<===
+00221	0145	SFFS.cpp              	
+00222	0146	SFFS.cpp              	, size 
+00222	0146	configSetup.cpp       	Inconsistent patch level in SM_config defaults!!!
+00223	0147	SFFS.cpp              	
+00224	0148	SFFS.cpp              	/
+00224	0148	SM_sdcard.cpp         	SD init failed
+00225	0149	SFFS.cpp              	
+00225	0149	SM_config.cpp         	Initialize string read:
+00225	0149	SM_sdcard.cpp         	Do not reformat the card
+00225	0149	taskClock.ino         	Unable to get a jamset lock!
+00226	0150	SM_sdcard.cpp         	 Likely a hardware/firmware problem
+00227	0151	SM_sdcard.cpp         	Error Code: 0000
+00230	0152	SM_clockSync.cpp      	CPU RTC Time set 0 @ 0
+00230	0152	SM_sdcard.cpp         	Error Data: 0
+00230	0152	configSetup.cpp       	Loading previous saved config from FRAM
+00230	0152	genericdevice_uartregtest.ino	Write echo mismatch
+00231	0153	SM_miniseed_lib.cpp   	High water mark for  @ 0 SPS is 0 samples
+00231	0153	SM_miniseed_steim.cpp 	Steim Purge!
+00233	0155	SM_sdcard.cpp         	Can't find a valid FAT16/FAT32 partition!\n
+00234	0156	taskRecord.ino        	Recording thread waiting to start
+00235	0157	SFFS.cpp              	Write: ")); DEBUG_OUT(print(m_name)); DEBUG_OUT(print(" bytes: 
+00235	0157	SM_sdcard.cpp         	Will format card anyway!
+00237	0159	SM_miniseed_lib.cpp   	Allocated sampleQ for 
+00237	0159	Threads.ino           	Header Block
+00237	0159	taskRecord.ino        	Startup threadRecording
+00242	0162	Mini_Logger5.4.ino    	Watchdog alert: 0x00 0x00
+00242	0162	SM_sdcard.cpp         	sd.begin() fails!
+00243	0163	SFFS.cpp              	WriteDone: 
+00243	0163	taskClock.ino         	Setting to 0 dumped samples
+00252	0170	configSetup.cpp       	Writing JSON config file to FRAM
+00254	0172	configSetup.cpp       	Unable to write FRAM JSON config file
+00260	0176	SM_miniseed_lib.cpp   	Unix Time is: 0
+00261	0177	SM_sdcard.cpp         	Card Format Failed!
+00267	0183	SM_clockSync.cpp      	gpsOffset: rtctime(0) - gpstime(0) mismatch! abort test!
+00267	0183	SM_miniseed_lib.cpp   	initHeader for /
+00267	0183	configSetup.cpp       	Starting SD card write
+00267	0183	taskRecord.ino        	R
+00272	0186	SFFS.cpp              	SFFS: No volume found.
+00273	0187	Mini_Logger5.4.ino    	Button Change state to 0
+00274	0188	SM_clockSync.cpp      	Received 0 of 0 PPS
+00274	0188	SM_sdcard.cpp         	Card has 0 sectors
+00274	0188	taskClock.ino         	Begin GNSS
+00275	0189	configSetup.cpp       	Checking file 
+00276	0190	Threads.ino           	LOG overflow on DLHR header
+00276	0190	taskClock.ino         	GNSS: Unable to Begin
+00277	0191	SM_clockSync.cpp      	Have 0 gpsTimes, 0 rtcTimes
+00277	0191	SM_ublox.cpp          	Begin UBLOX
+00277	0191	taskClock.ino         	Something wrong with GNSS module!!
+00300	0192	SFFS.cpp              	SFFS: Can not read or write FRAM.
+00300	0192	configSetup.cpp       	Using directory 
+00301	0193	Threads.ino           	LOG overflow on BMP header
+00303	0195	SM_sdcard.cpp         	erase failed for blocks 0 to 0
+00303	0195	configSetup.cpp       	Unable to open SD JSON config file  for write
+00303	0195	taskSample.ino        	Unknown format!
+00304	0196	Threads.ino           	LOG overflow on ACC header
+00305	0197	taskSample.ino        	Sample Overrun!(0) mx 0 @ 0(RTCsampleCount)
+00307	0199	SM_clockSync.cpp      	gpsOffset: gpstime: 0, rtctime: 0, offset: 0
+00307	0199	Threads.ino           	Wrote headers
+00307	0199	taskClock.ino         	Clock Setup Complete
+00310	0200	SM_ublox.cpp          	Set ublx mode
+00311	0201	configSetup.cpp       	Writing template config.jsn
+00312	0202	SM_clockSync.cpp      	gpsOffset: gps sec from start 0 (gps*1024: 0)
+00313	0203	configSetup.cpp       	Unable to open SD JSON config file  for write
+00314	0204	SM_clockSync.cpp      	gpsOffset: rtc offset in Ticks (~ms) from gnss 0
+00315	0205	SM_clockSync.cpp      	GPS delta: 0
+00315	0205	SM_sdcard.cpp         	Manufacturer ID: 00
+00315	0205	SM_ublox.cpp          	GNSS reset
+00315	0205	taskClock.ino         	GNSSsetStart
+00316	0206	SM_sdcard.cpp         	OEM ID:   
+00317	0207	SM_sdcard.cpp         	Product:      
+00320	0208	SM_sdcard.cpp         	Version: 0.0
+00321	0209	SM_sdcard.cpp         	Serial number: 0x00000000
+00322	0210	SM_sdcard.cpp         	Manufacturing date: 0/0
+00324	0212	SM_config.cpp         	Converted '' to 0
+00325	0213	SFFS.cpp              	Volume '")); DEBUG_OUT(print(m_volumeName)); DEBUG_OUT(println("' created.
+00327	0215	taskClock.ino         	getLock
+00332	0218	configSetup.cpp       	--config initialization--
+00334	0220	taskClock.ino         	Got PPS!
+00337	0223	Sensors.ino           	Bat Voltage: 0 counts
+00337	0223	taskClock.ino         	Timeout: No PPS!
+00340	0224	SM_ublox.cpp          	Recovered PPS for in 0 sec
+00341	0225	Threads.ino           	Voltage(0.00) < gnss.minVoltage (0.00)
+00344	0228	SM_miniseed_steim.cpp 	Steim Purge started
+00346	0230	Threads.ino           	Voltage (0.00) < battery cutoff (0.00)
+00347	0231	taskClock.ino         	reportSlew
+00351	0233	SFFS.cpp              	SFFS: Volume '
+00352	0234	SFFS.cpp              	
+00352	0234	taskClock.ino         	Waiting 0 sec for clockskew
+00353	0235	SFFS.cpp              	' mounted.
+00353	0235	SM_miniseed_lib.cpp   	updateHeader
+00354	0236	Sensors.ino           	Bat Voltage: 0.00
+00356	0238	SM_miniseed_steim.cpp 	Steim 0 samples, constants: 0, 0
+00361	0241	configSetup.cpp       	=====>Final Config<=====
+00362	0242	SFFS.cpp              	SFFS: No volume mounted.
+00363	0243	configSetup.cpp       	=====>End Config<=======
+00364	0244	SM_ublox.cpp          	Set Full Power
+00366	0246	taskClock.ino         	checkJamset
+00370	0248	SM_clockSync.cpp      	Reseting nsecs from to 0
+00371	0249	SM_sdcard.cpp         	SD file update time: 0/00/00T00:00:00
+00373	0251	SM_clockSync.cpp      	NSECS was 0 with 0,0,0 entries
+00373	0251	SM_ublox.cpp          	Set Low Power
+00375	0253	taskClock.ino         	clocksync: gpsOffset 0
+00376	0254	SM_miniseed_lib.cpp   	\n\n===>>>Expected RTC time: 0, got 0\n\n
+00376	0254	taskClock.ino         	clocksync: jamset required
+00400	0256	SM_config.cpp         	>>DS3231 lost power
+00400	0256	SM_miniseed_lib.cpp   	First Sample: 0 at RTCtime 0, unixTime 0, unixTimeOffset 0
+00400	0256	SM_miniseed_steim.cpp 	block: 0X00000000 0X00000000 0X00000000 0X00000000 0B                               0
+00400	0256	Sensors.ino           	Setup INA219
+00401	0257	SM_clockSync.cpp      	MC1
+00401	0257	SM_miniseed_steim.cpp 	block: 0x00000000 0X00000000 0X00000000 0X00000000
+00401	0257	SM_sdcard.cpp         	trying 
+00401	0257	SM_ublox.cpp          	Set max search to 0 secs
+00404	0260	SM_config.cpp         	 Local time: 00/00/00T00:00:00
+00405	0261	SM_config.cpp         	>>DS3231 time is incorrect - reset to default
+00405	0261	SM_sdcard.cpp         	Opening miniseed file: 
+00406	0262	taskClock.ino         	Waiting for recording semaphore
+00410	0264	SM_config.cpp         	>>DS3231 has preserved time
+00411	0265	SM_clockSync.cpp      	MC0
+00411	0265	taskClock.ino         	Suspended recording
+00412	0266	Threads.ino           	Low Power in 0 seconds
+00416	0270	SM_sdcard.cpp         	Checking directory 
+00417	0271	SM_config.cpp         	>>Boot number 0 of 0
+00420	0272	SFFS.cpp              	SFFS: fileOpen = 
+00421	0273	SM_config.cpp         	>>I2C Scanning...
+00421	0273	SM_sdcard.cpp         	Using directory 
+00422	0274	SM_ublox.cpp          	UBLOX Config: 
+00423	0275	SM_sdcard.cpp         	Failed to make  directory
+00425	0277	SM_ublox.cpp          	GNSS configuration complete
+00426	0278	SM_clockSync.cpp      	Get Slew: 0 sec count, cc0:0, cc1:0, del:0
+00426	0278	taskClock.ino         	Suspended sampling
+00427	0279	Sensors.ino           	IN219 bus hung
+00430	0280	SM_ublox.cpp          	Configuration for GNSS failed!  Retry
+00430	0280	Threads.ino           	Thread SOH started
+00432	0282	taskClock.ino         	Unsuspend sampling
+00433	0283	SM_sdcard.cpp         	Unable to sd.begin
+00434	0284	SM_miniseed_lib.cpp   	Dumped: 
+00434	0284	Threads.ino           	Thread SOH main loop
+00435	0285	SM_ublox.cpp          	GNSS initial configuration failed!!
+00436	0286	Sensors.ino           	IN219 bus hung
+00440	0288	Mini_Logger5.4.ino    	
+00440	0288	SM_sdcard.cpp         	SD card file:  unable to open for write
+00442	0290	SM_miniseed_steim.cpp 	w0: 0X00000000
+00442	0290	taskClock.ino         	doJamset
+00445	0293	SM_clockSync.cpp      	Delta first: 0, Delta last: 0
+00446	0294	SM_clockSync.cpp      	Slew: 0 ns, SlewRate: 0 ns/s, at RTC: 0
+00446	0294	SM_miniseed_lib.cpp   	\t\tSamp Rate: 0
+00450	0296	Mini_Logger5.4.ino    	
+00450	0296	SM_sdcard.cpp         	Opening  for write
+00451	0297	Mini_Logger5.4.ino    	
+00452	0298	Mini_Logger5.4.ino    	
+00452	0298	SM_miniseed_lib.cpp   	\tTime: 
+00452	0298	SM_sdcard.cpp         	Unable to sd.begin
+00453	0299	Mini_Logger5.4.ino    	
+00453	0299	SM_miniseed_lib.cpp   	\tTC: 0
+00454	0300	Mini_Logger5.4.ino    	
+00454	0300	SM_miniseed_lib.cpp   	\tCF(sel) 0 0 0
+00455	0301	Mini_Logger5.4.ino    	
+00455	0301	SFFS.cpp              	SFFS: Not enough space!
+00455	0301	SM_miniseed_lib.cpp   	\tQF(mt): 0 0
+00456	0302	Mini_Logger5.4.ino    	
+00456	0302	SM_miniseed_lib.cpp   	\tBlock 
+00456	0302	SM_sdcard.cpp         	Removing old  file
+00457	0303	Mini_Logger5.4.ino    	
+00457	0303	SM_miniseed_lib.cpp   	\tSample Count 0
+00457	0303	Sensors.ino           	SemaphoreWire blocked
+00457	0303	taskClock.ino         	Using clock time rather than GPS for Jamset!
+00460	0304	Mini_Logger5.4.ino    	
+00460	0304	SM_miniseed_lib.cpp   	\tCuml 0
+00460	0304	SM_sdcard.cpp         	Unable to remote file!! SD card format problem?
+00461	0305	Mini_Logger5.4.ino    	
+00461	0305	taskSample.ino        	Startup threadSample
+00462	0306	Mini_Logger5.4.ino    	
+00462	0306	SFFS.cpp              	SFFS: File already exists!
+00462	0306	taskSample.ino        	Heap Size: 0
+00465	0309	Mini_Logger5.4.ino    	
+00465	0309	SM_sdcard.cpp         	SD card file:  unable to open for write
+00466	0310	taskClock.ino         	clocksync: jamset complete!
+00467	0311	Sensors.ino           	INA219: 0.0 0.0 0.0
+00470	0312	Mini_Logger5.4.ino    	
+00471	0313	Mini_Logger5.4.ino    	
+00472	0314	Mini_Logger5.4.ino    	
+00473	0315	Mini_Logger5.4.ino    	
+00474	0316	Mini_Logger5.4.ino    	
+00474	0316	SM_sdcard.cpp         	Attempting to open  for read
+00474	0316	SM_ublox.cpp          	Stop at 0
+00474	0316	taskClock.ino         	doSurvey
+00475	0317	Mini_Logger5.4.ino    	
+00476	0318	Mini_Logger5.4.ino    	
+00476	0318	SM_sdcard.cpp         	Unable to sd.begin
+00477	0319	Mini_Logger5.4.ino    	
+00500	0320	Mini_Logger5.4.ino    	
+00500	0320	taskSample.ino        	I2C LOCKUP!
+00502	0322	SM_sdcard.cpp         	SD card file:  does not exist
+00502	0322	Sensors.ino           	Setup DLHR
+00503	0323	taskClock.ino         	First Lock extended GNSS operation
+00504	0324	SM_clockSync.cpp      	setSlew(0,0)
+00504	0324	Sensors.ino           	DLHR not being recorded!
+00506	0326	SM_sdcard.cpp         	SD card file:  unable to open for read
+00510	0328	SM_config.cpp         	I2C device fouond at address 00 - 
+00510	0328	Sensors.ino           	DLHR Not detected!
+00510	0328	taskSample.ino        	Interrupt at 0 ticks
+00511	0329	SM_miniseed_lib.cpp   	Clear
+00511	0329	taskSample.ino        	Startup sampling
+00513	0331	SM_config.cpp         	Unknown error at address 00
+00521	0337	SM_clockSync.cpp      	age10sec: 0. slewAging 0
+00522	0338	SM_config.cpp         	No I2C devices found\n
+00522	0338	Sensors.ino           	Unknown Sample Rate
+00523	0339	SM_ublox.cpp          	GNSS power on
+00524	0340	SM_clockSync.cpp      	slewAging: 0
+00524	0340	SM_config.cpp         	    done
+00525	0341	Sensors.ino           	Checking integrity of DLHR low pressure sensor
+00525	0341	taskSample.ino        	loopCount reboot!
+00527	0343	taskClock.ino         	Survey Completed
+00532	0346	SM_clockSync.cpp      	CurrentAging: 0, slewAging: 0
+00532	0346	Sensors.ino           	This unit has a corrupted low pressure sensor (BDF)
+00532	0346	taskSample.ino        	Call with nsamples==0
+00533	0347	SM_miniseed_lib.cpp   	Highwater Mark for (0): 0 of 0 
+00534	0348	Sensors.ino           	DLHR sensor (BDF) appears to be functional
+00534	0348	taskClock.ino         	powerDown
+00534	0348	taskSample.ino        	Call with nsamples==0
+00536	0350	SM_ublox.cpp          	GNSS power off
+00540	0352	taskSample.ino        	Missed 0 samples
+00542	0354	SM_clockSync.cpp      	slewDelay 0 ticks too small to work with
+00542	0354	Sensors.ino           	DLHR Sample Rate: 0, Averaging is 0x00
+00543	0355	taskSample.ino        	Missed 0 samples
+00545	0357	taskClock.ino         	GNSS: Shutdown
+00545	0357	taskSample.ino        	Missed 0 samples
+00550	0360	SM_clockSync.cpp      	Current slew 0, Set Slew Aging 0, Stop in  0 seconds
+00552	0362	SM_ublox.cpp          	Power Off - expired:
+00552	0362	taskClock.ino         	reportSlew
+00553	0363	Mini_Logger5.4.ino    	===>Running version 0.0.0
+00553	0363	Sensors.ino           	DLHR: elapsed for INT32 sample: 0uS, 0.00 SPS
+00555	0365	Sensors.ino           	DLHR sensor ROM corrupted!  Chip must be replaced!!!
+00557	0367	taskClock.ino         	clocksync: Clock is Locked!
+00557	0367	taskSample.ino        	Sample Overrun! 0 @ 0(RTCsampleCount)
+00560	0368	taskClock.ino         	 slew: 0 ns aging: 0
+00563	0371	SM_config.cpp         	===>SD card size is zero!
+00566	0374	SM_config.cpp         	FRAM size is zero
+00566	0374	Sensors.ino           	DLHR: elapsed for FLOAT sample: 0.000000Pa, 0uS, 0.00 SPS
+00570	0376	SM_clockSync.cpp      	stop slew, set aging to 0
+00571	0377	SM_config.cpp         	Compiled Time is 0:  
+00571	0377	Sensors.ino           	DLHR: Reference: 0.0000
+00572	0378	taskClock.ino         	waitForNextCycle
+00574	0380	taskClock.ino         	Next GNSS in 0 sec
+00577	0383	SM_config.cpp         	Parsing default config
+00577	0383	Sensors.ino           	DLHR Header
+00601	0385	Sensors.ino           	DLHR not being recorded!
+00602	0386	SM_config.cpp         	defaultConfig: 0 bytes
+00603	0387	Mini_Logger5.4.ino    	unable to open  for write
+00603	0387	SM_clockSync.cpp      	adjustAging(0 ns/sec)
+00603	0387	taskClock.ino         	startupDelay
+00605	0389	taskClock.ino         	0 more minutes to GNSS start
+00606	0390	SM_miniseed_lib.cpp   	Waiting 0
+00610	0392	SM_config.cpp         	Attempting hardware scan
+00611	0393	SM_clockSync.cpp      	 Current aging 0
+00615	0397	SM_config.cpp         	Retrun from hardware scan
+00622	0402	Mini_Logger5.4.ino    	Old Errors
+00624	0404	SM_clockSync.cpp      	Set TCXO aging to 0
+00624	0404	SM_config.cpp         	Parsing input stream
+00625	0405	Mini_Logger5.4.ino    	No Errors in history
+00630	0408	SM_miniseed_lib.cpp   	Unable to write header
+00633	0411	SM_config.cpp         	loadFromJson Loading JSON from Stream
+00636	0414	Sensors.ino           	DLHR returns PROM checksum error:  Must be replaced!!
+00641	0417	Mini_Logger5.4.ino    	I2C Status:
+00641	0417	SM_config.cpp         	deserializeJson() failed: 
+00642	0418	Mini_Logger5.4.ino    	
+00644	0420	Mini_Logger5.4.ino    	Unable to reset I2C bus!!
+00645	0421	taskClock.ino         	Begin Clocksync Thread
+00647	0423	Mini_Logger5.4.ino    	Scan Complete
+00655	0429	taskClock.ino         	Startup threadClocksync
+00656	0430	SM_config.cpp         	version: 0.0.0
+00657	0431	SM_clockSync.cpp      	stop Timer
+00657	0431	SM_miniseed_lib.cpp   	Write fail at sample 0 of  (0)
+00661	0433	taskClock.ino         	Ending ClockSync Thread
+00665	0437	Mini_Logger5.4.ino    	RTC Clock init for sleep until
+00700	0448	SM_clockSync.cpp      	start Timer
+00701	0449	Mini_Logger5.4.ino    	Begin GNSS
+00703	0451	Mini_Logger5.4.ino    	GNSS: Unable to Begin
+00704	0452	Mini_Logger5.4.ino    	Something wrong with GNSS module!!
+00706	0454	SM_config.cpp         	chan 0 format is (0)
+00713	0459	SM_clockSync.cpp      	setupInputs
+00713	0459	Sensors.ino           	Setup BMP388
+00717	0463	Mini_Logger5.4.ino    	RTC Clock initialized
+00720	0464	Sensors.ino           	BMP decimation rate must be less than or equal to BMP_T rate
+00720	0464	taskClock.ino         	Slew Clock Stage 1
+00721	0465	SM_config.cpp         	chan 0 is (0)
+00726	0470	Mini_Logger5.4.ino    	Starting Watchdog Timer...
+00734	0476	Mini_Logger5.4.ino    	Not using watchdog!
+00734	0476	SM_config.cpp         	chan 0 sampleRate:0
+00734	0476	taskClock.ino         	Slew Clock Stage 2
+00737	0479	Mini_Logger5.4.ino    	Not using Watchdog!
+00742	0482	taskClock.ino         	GNSS stopped max Search exceeded or init prob!
+00743	0483	Sensors.ino           	Unknown Sample Rate
+00746	0486	Sensors.ino           	Error accessing BMP sensor at 0x00
+00747	0487	SM_config.cpp         	chan 0 reserveTime:0
+00747	0487	SM_ublox.cpp          	Accepted message 0000
+00755	0493	SM_ublox.cpp          	Found NMEA message!! Probably need a reset
+00763	0499	SM_clockSync.cpp      	setupTimer
+00763	0499	Sensors.ino           	BMP: elapsed for INT32 sample: 0 uS, 0.00 SPS
+00771	0505	SM_ublox.cpp          	Sending getSecId
+00772	0506	Sensors.ino           	BMP: elapsed for FLOAT sample: 0 uS, 0.00 SPS
+00773	0507	Sensors.ino           	BMP Pressure: 0.00, Temperature: 0.00
+00775	0509	SM_ublox.cpp          	Looking for SecID
+01001	0513	SM_ublox.cpp          	Security ID found
+01004	0516	taskClock.ino         	GNSS continuous mode, resume in 5 sec
+01010	0520	SM_ublox.cpp          	Time Expired!
+01017	0527	taskClock.ino         	Clock Sync : suspending
+01027	0535	SM_ublox.cpp          	Flush GNSS
+01030	0536	SM_config.cpp         	***WARNING*** Channel 5 must be OFF if running diagnostics
+01032	0538	Mini_Logger5.4.ino    	Initialized mseed channels
+01034	0540	Mini_Logger5.4.ino    	Low Power Mode starts after 0 minutes (sample 0)
+01037	0543	SM_ublox.cpp          	Watchdog reboot on GNSS!
+01041	0545	Mini_Logger5.4.ino    	All static setup complete
+01042	0546	SM_config.cpp         	Converted '' to 0
+01042	0546	SM_ublox.cpp          	GNSS Restart 0
+01046	0550	SM_config.cpp         	No Match!
+01060	0560	SM_ublox.cpp          	Position Fix only
+01066	0566	SM_ublox.cpp          	No 3D Lock, Fix type: 0
+01077	0575	SM_ublox.cpp          	Restart Message!
+01105	0581	SM_ublox.cpp          	0 Stale GNSS fix(s)
+01105	0581	Sensors.ino           	Setup the accelerometer
+01106	0582	Sensors.ino           	Probing for address
+01110	0584	SM_ublox.cpp          	Likely stale fix < 200 ms: 0 ms
+01111	0585	Sensors.ino           	No acceleromter found
+01113	0587	SM_ublox.cpp          	Partial Fix 0 of 0 @ 0/0/0 00:00:00
+01114	0588	Sensors.ino           	Detected a LIS2DH12 accelerometer
+01117	0591	Sensors.ino           	Detected a LIS2HH12 accelerometer
+01120	0592	SM_ublox.cpp          	Fix 0 of 0 @ 0/0/0 00:00:00
+01123	0595	Sensors.ino           	Detected a IM42351 accelerometer
+01127	0599	Sensors.ino           	Unknown accelerometer
+01147	0615	Sensors.ino           	Setting up IIM42351 external clock
+01174	0636	SM_ublox.cpp          	Send 0
+01177	0639	Sensors.ino           	Turning on 32768 Hz IIM42351 external clocking
+01201	0641	Sensors.ino           	Setting up for IM42351
+01203	0643	Sensors.ino           	IM42351 initialized
+01205	0645	Sensors.ino           	IM42351 did NOT initialize
+01210	0648	Sensors.ino           	IM42351 Setting basic configuration
+01212	0650	Sensors.ino           	IIM42351 set basic config returned 0
+01213	0651	Sensors.ino           	IM42351 Starting test acqusition
+01216	0654	Sensors.ino           	IM42351 sample 0: 0 0.0
+01221	0657	Sensors.ino           	IM42351 missed sample
+01225	0661	Sensors.ino           	IM42351 check buffer interrupt
+01231	0665	SM_ublox.cpp          	Read 0
+01246	0678	SM_ublox.cpp          	Wrong classID/msgID
+01246	0678	Sensors.ino           	Buffer interrrupt at 0 samples
+01247	0679	Sensors.ino           	DRDY PIN is 0
+01253	0683	SM_ublox.cpp          	Waiting on ack: 0/0
+01271	0697	Sensors.ino           	IM42351 0 accesses in 0 ms
+01272	0698	Sensors.ino           	IM42351 sample rate: 0.0 SPS
+01273	0699	SM_ublox.cpp          	Sending [0X00,0X00] 0 bytes
+01303	0707	Sensors.ino           	Setting up for LIS2HH12
+01323	0723	Sensors.ino           	Program Error!
+01325	0725	Sensors.ino           	LIS2HH12 setup = testing rates
+01344	0740	Sensors.ino           	Unknown Sample Rate
+01346	0742	Sensors.ino           	Error accessing LIS2DH12
+01352	0746	Sensors.ino           	LIS2DH12: Current rate (0-9): 0, scale (0-3): 0, mode(0-2)
+01374	0764	Sensors.ino           	Accelerometer: elapsed for ACC INT32 100 samples: 0uS, 0.00 SPS
+01406	0774	Sensors.ino           	Accelerometer: elapsed for ACC FLOAT 100 samples: 0uS, 0.00 SPS
+01415	0781	Sensors.ino           	No acceleromter found
+01430	0792	Sensors.ino           	Unknown accelerometer
+01442	0802	Sensors.ino           	No acceleromter found
+01514	0844	Sensors.ino           	Unknown accelerometer: 0x0

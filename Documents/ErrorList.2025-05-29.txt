@@ -1,0 +1,70 @@
+00024	0020	taskMonitor.ino       	Diag task blocked
+00037	0031	taskSample.ino        	No Data Requested - check config.jsn file
+00053	0043	SM_diag.cpp           	USER Attn Button
+00070	0056	Sensors.ino           	Replace DLHR differential pressure chip and notify SMU!
+00074	0060	SM_miniseed2.ino      	SD Init failed with 0x0000 0
+00100	0064	SM_miniseed2.ino      	Can't find valid FAT partition.
+00103	0067	configSetup.cpp       	No FRAM found!!
+00106	0070	taskSample.ino        	Unknown or unapplicable output format requested!
+00107	0071	taskRecord.ino        	User Pressed Attn
+00111	0073	SM_miniseed2.ino      	Unable to open file!
+00120	0080	configSetup.cpp       	FRAM non zero 0 at address 0
+00134	0092	SM_sdcard.cpp         	readInfo failed
+00140	0096	SM_sdcard.cpp         	readCID failed
+00141	0097	taskSample.ino        	RTC Timeout!: 0 ticks
+00145	0101	taskRecord.ino        	Low Voltage Cutoff
+00150	0104	SM_usbdrive.cpp       	Unable to init SD card!
+00157	0111	SM_sdcard.cpp         	
+00163	0115	SM_sdcard.cpp         	DEBUG: Low Power Mode
+00163	0115	taskSample.ino        	Overrun 0
+00202	0130	taskSample.ino        	Sample Timeout
+00205	0133	Mini_Logger5.4.ino    	Too many watchdog reboots!
+00211	0137	Mini_Logger5.4.ino    	Watchdog Alert!
+00213	0139	Sensors.ino           	ADS1115 Not detected!
+00215	0141	SM_sdcard.cpp         	Unable to init the SD Card!!
+00222	0146	configSetup.cpp       	Inconsistent patch level in SM_config defaults!!!
+00225	0149	taskClock.ino         	Unable to get a jamset lock!
+00242	0162	SM_sdcard.cpp         	sd.begin() fails!
+00261	0177	SM_sdcard.cpp         	Card Format Failed!
+00276	0190	Threads.ino           	LOG overflow on DLHR header
+00277	0191	taskClock.ino         	Something wrong with GNSS module!!
+00301	0193	Threads.ino           	LOG overflow on BMP header
+00303	0195	SM_sdcard.cpp         	erase failed for blocks 0 to 0
+00303	0195	taskSample.ino        	Unknown format!
+00304	0196	Threads.ino           	LOG overflow on ACC header
+00305	0197	taskSample.ino        	Sample Overrun!(0) mx 0 @ 0(RTCsampleCount)
+00427	0279	Sensors.ino           	IN219 bus hung
+00433	0283	SM_sdcard.cpp         	Unable to sd.begin
+00436	0286	Sensors.ino           	IN219 bus hung
+00440	0288	SM_sdcard.cpp         	SD card file:  unable to open for write
+00452	0298	SM_sdcard.cpp         	Unable to sd.begin
+00457	0303	Sensors.ino           	SemaphoreWire blocked
+00460	0304	SM_sdcard.cpp         	Unable to remote file!! SD card format problem?
+00465	0309	SM_sdcard.cpp         	SD card file:  unable to open for write
+00476	0318	SM_sdcard.cpp         	Unable to sd.begin
+00500	0320	taskSample.ino        	I2C LOCKUP!
+00506	0326	SM_sdcard.cpp         	SD card file:  unable to open for read
+00510	0328	Sensors.ino           	DLHR Not detected!
+00522	0338	Sensors.ino           	Unknown Sample Rate
+00525	0341	taskSample.ino        	loopCount reboot!
+00532	0346	Sensors.ino           	This unit has a corrupted low pressure sensor (BDF)
+00534	0348	taskSample.ino        	Call with nsamples==0
+00540	0352	taskSample.ino        	Missed 0 samples
+00545	0357	taskSample.ino        	Missed 0 samples
+00555	0365	Sensors.ino           	DLHR sensor ROM corrupted!  Chip must be replaced!!!
+00557	0367	taskSample.ino        	Sample Overrun! 0 @ 0(RTCsampleCount)
+00630	0408	SM_miniseed_lib.cpp   	Unable to write header
+00636	0414	Sensors.ino           	DLHR returns PROM checksum error:  Must be replaced!!
+00644	0420	Mini_Logger5.4.ino    	Unable to reset I2C bus!!
+00657	0431	SM_miniseed_lib.cpp   	Write fail at sample 0 of  (0)
+00704	0452	Mini_Logger5.4.ino    	Something wrong with GNSS module!!
+00720	0464	Sensors.ino           	BMP decimation rate must be less than or equal to BMP_T rate
+00743	0483	Sensors.ino           	Unknown Sample Rate
+00746	0486	Sensors.ino           	Error accessing BMP sensor at 0x00
+01077	0575	SM_ublox.cpp          	Restart Message!
+01323	0723	Sensors.ino           	Program Error!
+01344	0740	Sensors.ino           	Unknown Sample Rate
+01346	0742	Sensors.ino           	Error accessing LIS2DH12
+01415	0781	Sensors.ino           	No acceleromter found
+01430	0792	Sensors.ino           	Unknown accelerometer
+01514	0844	Sensors.ino           	Unknown accelerometer: 0x0
