@@ -55,9 +55,9 @@
 00557	0367	taskSample.ino        	Sample Overrun! 0 @ 0(RTCsampleCount)
 00630	0408	SM_miniseed_lib.cpp   	Unable to write header
 00636	0414	Sensors.ino           	DLHR returns PROM checksum error:  Must be replaced!!
-00644	0420	Mini_Logger5.4.ino    	Unable to reset I2C bus!!
+00645	0421	Mini_Logger5.4.ino    	Unable to reset I2C bus!!
 00657	0431	SM_miniseed_lib.cpp   	Write fail at sample 0 of  (0)
-00704	0452	Mini_Logger5.4.ino    	Something wrong with GNSS module!!
+00705	0453	Mini_Logger5.4.ino    	Something wrong with GNSS module!!
 00720	0464	Sensors.ino           	BMP decimation rate must be less than or equal to BMP_T rate
 00743	0483	Sensors.ino           	Unknown Sample Rate
 00746	0486	Sensors.ino           	Error accessing BMP sensor at 0x00

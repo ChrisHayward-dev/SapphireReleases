@@ -422,8 +422,9 @@
 00550	0360	SM_clockSync.cpp      	Current slew 0, Set Slew Aging 0, Stop in  0 seconds
 00552	0362	SM_ublox.cpp          	Power Off - expired:
 00552	0362	taskClock.ino         	reportSlew
-00553	0363	Mini_Logger5.4.ino    	===>Running version 0.0.0
+00553	0363	Mini_Logger5.4.ino    	
 00553	0363	Sensors.ino           	DLHR: elapsed for INT32 sample: 0uS, 0.00 SPS
+00554	0364	Mini_Logger5.4.ino    	===>Running version () 0.0.0
 00555	0365	Sensors.ino           	DLHR sensor ROM corrupted!  Chip must be replaced!!!
 00557	0367	taskClock.ino         	clocksync: Clock is Locked!
 00557	0367	taskSample.ino        	Sample Overrun! 0 @ 0(RTCsampleCount)
@@ -440,49 +441,49 @@
 00577	0383	Sensors.ino           	DLHR Header
 00601	0385	Sensors.ino           	DLHR not being recorded!
 00602	0386	SM_config.cpp         	defaultConfig: 0 bytes
-00603	0387	Mini_Logger5.4.ino    	unable to open  for write
 00603	0387	SM_clockSync.cpp      	adjustAging(0 ns/sec)
 00603	0387	taskClock.ino         	startupDelay
+00604	0388	Mini_Logger5.4.ino    	unable to open  for write
 00605	0389	taskClock.ino         	0 more minutes to GNSS start
 00606	0390	SM_miniseed_lib.cpp   	Waiting 0
 00610	0392	SM_config.cpp         	Attempting hardware scan
 00611	0393	SM_clockSync.cpp      	 Current aging 0
 00615	0397	SM_config.cpp         	Retrun from hardware scan
-00622	0402	Mini_Logger5.4.ino    	Old Errors
+00623	0403	Mini_Logger5.4.ino    	Old Errors
 00624	0404	SM_clockSync.cpp      	Set TCXO aging to 0
 00624	0404	SM_config.cpp         	Parsing input stream
-00625	0405	Mini_Logger5.4.ino    	No Errors in history
+00626	0406	Mini_Logger5.4.ino    	No Errors in history
 00630	0408	SM_miniseed_lib.cpp   	Unable to write header
 00633	0411	SM_config.cpp         	loadFromJson Loading JSON from Stream
 00636	0414	Sensors.ino           	DLHR returns PROM checksum error:  Must be replaced!!
-00641	0417	Mini_Logger5.4.ino    	I2C Status:
 00641	0417	SM_config.cpp         	deserializeJson() failed: 
-00642	0418	Mini_Logger5.4.ino    	
-00644	0420	Mini_Logger5.4.ino    	Unable to reset I2C bus!!
+00642	0418	Mini_Logger5.4.ino    	I2C Status:
+00643	0419	Mini_Logger5.4.ino    	
+00645	0421	Mini_Logger5.4.ino    	Unable to reset I2C bus!!
 00645	0421	taskClock.ino         	Begin Clocksync Thread
-00647	0423	Mini_Logger5.4.ino    	Scan Complete
+00650	0424	Mini_Logger5.4.ino    	Scan Complete
 00655	0429	taskClock.ino         	Startup threadClocksync
 00656	0430	SM_config.cpp         	version: 0.0.0
 00657	0431	SM_clockSync.cpp      	stop Timer
 00657	0431	SM_miniseed_lib.cpp   	Write fail at sample 0 of  (0)
 00661	0433	taskClock.ino         	Ending ClockSync Thread
-00665	0437	Mini_Logger5.4.ino    	RTC Clock init for sleep until
+00666	0438	Mini_Logger5.4.ino    	RTC Clock init for sleep until
 00700	0448	SM_clockSync.cpp      	start Timer
-00701	0449	Mini_Logger5.4.ino    	Begin GNSS
-00703	0451	Mini_Logger5.4.ino    	GNSS: Unable to Begin
-00704	0452	Mini_Logger5.4.ino    	Something wrong with GNSS module!!
+00702	0450	Mini_Logger5.4.ino    	Begin GNSS
+00704	0452	Mini_Logger5.4.ino    	GNSS: Unable to Begin
+00705	0453	Mini_Logger5.4.ino    	Something wrong with GNSS module!!
 00706	0454	SM_config.cpp         	chan 0 format is (0)
 00713	0459	SM_clockSync.cpp      	setupInputs
 00713	0459	Sensors.ino           	Setup BMP388
-00717	0463	Mini_Logger5.4.ino    	RTC Clock initialized
+00720	0464	Mini_Logger5.4.ino    	RTC Clock initialized
 00720	0464	Sensors.ino           	BMP decimation rate must be less than or equal to BMP_T rate
 00720	0464	taskClock.ino         	Slew Clock Stage 1
 00721	0465	SM_config.cpp         	chan 0 is (0)
-00726	0470	Mini_Logger5.4.ino    	Starting Watchdog Timer...
-00734	0476	Mini_Logger5.4.ino    	Not using watchdog!
+00727	0471	Mini_Logger5.4.ino    	Starting Watchdog Timer...
 00734	0476	SM_config.cpp         	chan 0 sampleRate:0
 00734	0476	taskClock.ino         	Slew Clock Stage 2
-00737	0479	Mini_Logger5.4.ino    	Not using Watchdog!
+00735	0477	Mini_Logger5.4.ino    	Not using watchdog!
+00740	0480	Mini_Logger5.4.ino    	Not using Watchdog!
 00742	0482	taskClock.ino         	GNSS stopped max Search exceeded or init prob!
 00743	0483	Sensors.ino           	Unknown Sample Rate
 00746	0486	Sensors.ino           	Error accessing BMP sensor at 0x00
@@ -501,10 +502,10 @@
 01017	0527	taskClock.ino         	Clock Sync : suspending
 01027	0535	SM_ublox.cpp          	Flush GNSS
 01030	0536	SM_config.cpp         	***WARNING*** Channel 5 must be OFF if running diagnostics
-01032	0538	Mini_Logger5.4.ino    	Initialized mseed channels
-01034	0540	Mini_Logger5.4.ino    	Low Power Mode starts after 0 minutes (sample 0)
+01033	0539	Mini_Logger5.4.ino    	Initialized mseed channels
+01035	0541	Mini_Logger5.4.ino    	Low Power Mode starts after 0 minutes (sample 0)
 01037	0543	SM_ublox.cpp          	Watchdog reboot on GNSS!
-01041	0545	Mini_Logger5.4.ino    	All static setup complete
+01042	0546	Mini_Logger5.4.ino    	All static setup complete
 01042	0546	SM_config.cpp         	Converted '' to 0
 01042	0546	SM_ublox.cpp          	GNSS Restart 0
 01046	0550	SM_config.cpp         	No Match!
