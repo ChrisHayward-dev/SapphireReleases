@@ -12,7 +12,7 @@ provide an index.htm file reference that points to the github release.
 ## test_DLHR_Read.uf2 
 Simple test of DLHR differential pressure sensor.  This firmware simply reads
 the sensor and prints the sample to the screen.  I usually use it with the 
-Arduino IDE in plot mode.
+Arduino IDE in plot mode
 ## MiniLogger.5.4.*.nousb.uf2
 ### Defaults:
 	If run with a SD card without a config.jsn file, the program will build
